@@ -82,9 +82,9 @@
   --fs-3: 17px;
   --fs-4: 16px;
   --fs-5: 15px;
-  --fs-6: 14px;
-  --fs-7: 13px;
-  --fs-8: 11px;
+  --fs-6: 18px;
+  --fs-7: 20px;
+  --fs-8: 20px;
 
   /* font-weight */
   --fw-300: 300;
@@ -499,7 +499,7 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
+  font-size: var(--fs-6); //Isi About
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -1377,7 +1377,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar-list { gap: 20px; }
 
-  .navbar-link { --fs-8: 14px; }
+  .navbar-link { --fs-8: 25px; } //about,resume
 
 
 
